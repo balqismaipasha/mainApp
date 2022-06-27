@@ -9,6 +9,8 @@ export default {
             areas: data.areas
         };
 
+        const token = context.getters.token;
+
         const response = await fetch(
             `https://main-app-vue-default-rtdb.firebaseio.com/coaches/${userId}.json`,
             {
