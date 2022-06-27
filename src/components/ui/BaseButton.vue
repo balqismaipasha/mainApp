@@ -35,7 +35,7 @@ a {
   text-decoration: none;
   padding: 0.75rem 1.5rem;
   font: inherit;
-  background-color: primary;
+  background-color: #3a0061;
   border: 1px solid #3a0061;
   color: white;
   cursor: pointer;

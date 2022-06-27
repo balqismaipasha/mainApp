@@ -2,7 +2,7 @@
   <form @submit.prevent="submitForm">
     <div class="form-control">
       <label for="email">Your E-Mail</label>
-      <input type="email" id="email" v-model.trim="email" />
+      <input type="email" id="email" v-model.trim="email"/>
     </div>
     <div class="form-control">
       <label for="message">Message</label>
@@ -28,9 +28,9 @@ export default {
     submitForm() {
       this.formIsValid = true;
       if (
-        this.email === '' ||
-        !this.email.includes('@') ||
-        this.message === ''
+          this.email === '' ||
+          !this.email.includes('@') ||
+          this.message === ''
       ) {
         this.formIsValid = false;
         return;
